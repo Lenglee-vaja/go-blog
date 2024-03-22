@@ -111,5 +111,6 @@ func Login(c *fiber.Ctx) error {
 		"status":  true,
 		"message": "Success",
 		"user":    user,
+		"token":   token,
 	})
 }
